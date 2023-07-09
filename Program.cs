@@ -80,9 +80,9 @@ void SeedData(GiftServiceDbContext dbContext)
 {
     var children = new List<Child>
     {
-        new Child { Name = "Child 1", LastName = "LastName 1" },
-        new Child { Name = "Child 2", LastName = "LastName 2" },
-        new Child { Name = "Child 3", LastName = "LastName 3" }
+        new Child { Name = "Petras", LastName = "Jonaitis" },
+        new Child { Name = "Romas", LastName = "Mikða" },
+        new Child { Name = "Jonas", LastName = "Petraitis" }
     };
 
     dbContext.Children.AddRange(children);
